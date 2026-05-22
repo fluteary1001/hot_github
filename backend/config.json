@@ -1,0 +1,38 @@
+{
+  "app_name": "Hot Github",
+  "debug": true,
+  "cors_origins": ["http://localhost:5173", "http://localhost:3000"],
+  "download_path": "../github_projects",
+  "db_path": "projects.db",
+  "log_dir": "logs",
+  "github_token": "",
+  "github_api_timeout": 30,
+  "max_search_results": 5,
+  "claude_api_key": "",
+  "claude_model": "glm-5",
+  "claude_base_url": "",
+  "claude_max_tokens": 16000,
+  "claude_cli_timeout": 1200,
+  "claude_api_timeout": 1200,
+  "claude_retry_count": 3,
+  "analysis_method": "cli",
+  "require_login": false,
+  "secret_key": "your-secret-key-change-in-production",
+  "algorithm": "HS256",
+  "access_token_expire_minutes": 1440,
+  "users": {
+    "admin": "admin123"
+  },
+  "trending_enabled": true,
+  "trending_official_limit": 10,
+  "trending_starred_limit": 10,
+  "trending_categories": {
+    "ALL": { "topics": [], "min_stars": 50 },
+    "AI": { "topics": ["ai", "machine-learning", "llm", "deep-learning", "gpt"], "min_stars": 100 },
+    "实用工具": { "topics": ["tools", "utility", "cli", "automation"], "min_stars": 100 },
+    "游戏&创意": { "topics": ["game", "creative", "graphics", "art", "music"], "min_stars": 50 },
+    "学习资源": { "topics": ["education", "learning", "tutorial", "course", "documentation"], "min_stars": 50 }
+  },
+  "docs_generate_html": true,
+  "docs_generate_pptx": false
+}
