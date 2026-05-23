@@ -5,10 +5,8 @@
   "download_path": "../github_projects",
   "db_path": "projects.db",
   "log_dir": "logs",
-  "github_token": "",
   "github_api_timeout": 30,
   "max_search_results": 5,
-  "claude_api_key": "",
   "claude_model": "glm-5",
   "claude_base_url": "",
   "claude_max_tokens": 16000,
@@ -17,7 +15,6 @@
   "claude_retry_count": 3,
   "analysis_method": "cli",
   "require_login": false,
-  "secret_key": "your-secret-key-change-in-production",
   "algorithm": "HS256",
   "access_token_expire_minutes": 1440,
   "users": {

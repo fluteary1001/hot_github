@@ -1,7 +1,13 @@
-"""配置管理模块 - 仅从 backend/config.json 加载"""
+"""配置管理模块 - 从 backend/config.json 和 .env 加载"""
 import json
+import os
 from pathlib import Path
 from typing import Optional, Dict, Any, List
+from dotenv import load_dotenv
+
+# 加载 .env 文件
+env_path = Path(__file__).parent.parent / ".env"
+load_dotenv(env_path)
 
 
 def _default_config_path() -> Path:
@@ -122,6 +128,11 @@ class Settings:
         for json_key, attr_name in _FIELD_MAP.items():
             if json_key in data:
                 setattr(self, attr_name, data[json_key])
+
+        # 从 .env 加载敏感信息（优先级高于 config.json）
+        self.GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", self.GITHUB_TOKEN)
+        self.CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", self.CLAUDE_API_KEY)
+        self.SECRET_KEY = os.getenv("SECRET_KEY", self.SECRET_KEY)
 
     def save_to_json(self, config_path: str = None) -> None:
         """保存当前配置到JSON文件"""

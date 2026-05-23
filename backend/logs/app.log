@@ -1,297 +1,32 @@
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=4, doc_name=academic-research-skills-设计说明书.html
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=4, name=academic-research-skills, full_name=Imbad0202/academic-research-skills
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\academic-research-skills-设计说明书.html (exists=True)
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\academic-research-skills-设计说明书.html
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\academic-research-skills-设计说明书.html, suffix=.html, size=93214 bytes
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 73852 字符
-2026-05-22 22:01:28 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:01:29 | INFO     | downloader:_log | [git] Receiving objects:   5% (387551/6614849), 214.61 MiB | 3.77 MiB/s
-2026-05-22 22:01:30 | INFO     | downloader:_log | [git] Receiving objects:   5% (387702/6614849), 216.91 MiB | 3.29 MiB/s
-2026-05-22 22:01:31 | INFO     | downloader:_log | [git] Receiving objects:   5% (390159/6614849), 221.58 MiB | 3.14 MiB/s
-2026-05-22 22:01:32 | INFO     | downloader:_log | [git] Receiving objects:   5% (391914/6614849), 228.55 MiB | 3.50 MiB/s
-2026-05-22 22:01:33 | INFO     | downloader:_log | [git] Receiving objects:   5% (394055/6614849), 233.15 MiB | 4.02 MiB/s
-2026-05-22 22:01:33 | INFO     | downloader:_log | [git] Receiving objects:   5% (395924/6614849), 238.36 MiB | 4.73 MiB/s
-2026-05-22 22:01:34 | INFO     | downloader:_log | [git] Receiving objects:   6% (396891/6614849), 240.11 MiB | 4.81 MiB/s
-2026-05-22 22:01:35 | INFO     | downloader:_log | [git] Receiving objects:   6% (398062/6614849), 244.94 MiB | 5.63 MiB/s
-2026-05-22 22:01:36 | INFO     | downloader:_log | [git] Receiving objects:   6% (399599/6614849), 251.54 MiB | 5.92 MiB/s
-2026-05-22 22:01:37 | INFO     | downloader:_log | [git] Receiving objects:   6% (401607/6614849), 261.25 MiB | 6.46 MiB/s
-2026-05-22 22:01:38 | INFO     | downloader:_log | [git] Receiving objects:   6% (403498/6614849), 274.04 MiB | 7.94 MiB/s
-2026-05-22 22:01:39 | INFO     | downloader:_log | [git] Receiving objects:   6% (405542/6614849), 281.59 MiB | 9.04 MiB/s
-2026-05-22 22:01:40 | INFO     | downloader:_log | [git] Receiving objects:   6% (406364/6614849), 290.29 MiB | 9.24 MiB/s
-2026-05-22 22:01:41 | INFO     | downloader:_log | [git] Receiving objects:   6% (406437/6614849), 291.69 MiB | 8.29 MiB/s
-2026-05-22 22:01:42 | INFO     | downloader:_log | [git] Receiving objects:   6% (407172/6614849), 295.07 MiB | 7.02 MiB/s
-2026-05-22 22:01:43 | INFO     | downloader:_log | [git] Receiving objects:   6% (408787/6614849), 301.14 MiB | 5.63 MiB/s
-2026-05-22 22:01:44 | INFO     | downloader:_log | [git] Receiving objects:   6% (410193/6614849), 308.29 MiB | 4.38 MiB/s
-2026-05-22 22:01:45 | INFO     | downloader:_log | [git] Receiving objects:   6% (411607/6614849), 313.25 MiB | 4.68 MiB/s
-2026-05-22 22:01:46 | INFO     | downloader:_log | [git] Receiving objects:   6% (413174/6614849), 319.85 MiB | 5.33 MiB/s
-2026-05-22 22:01:47 | INFO     | downloader:_log | [git] Receiving objects:   6% (413224/6614849), 325.13 MiB | 6.08 MiB/s
-2026-05-22 22:01:48 | INFO     | downloader:_log | [git] Receiving objects:   6% (414538/6614849), 334.41 MiB | 6.76 MiB/s
-2026-05-22 22:01:49 | INFO     | downloader:_log | [git] Receiving objects:   6% (415259/6614849), 342.86 MiB | 6.93 MiB/s
-2026-05-22 22:01:50 | INFO     | downloader:_log | [git] Receiving objects:   6% (420231/6614849), 354.85 MiB | 8.22 MiB/s
-2026-05-22 22:01:51 | INFO     | downloader:_log | [git] Receiving objects:   6% (424016/6614849), 360.10 MiB | 8.47 MiB/s
-2026-05-22 22:01:52 | INFO     | downloader:_log | [git] Receiving objects:   6% (427343/6614849), 370.05 MiB | 8.90 MiB/s
-2026-05-22 22:01:53 | INFO     | downloader:_log | [git] Receiving objects:   6% (434746/6614849), 381.07 MiB | 9.41 MiB/s
-2026-05-22 22:01:54 | INFO     | downloader:_log | [git] Receiving objects:   6% (438413/6614849), 390.59 MiB | 9.76 MiB/s
-2026-05-22 22:01:55 | INFO     | downloader:_log | [git] Receiving objects:   6% (441748/6614849), 397.99 MiB | 8.98 MiB/s
-2026-05-22 22:01:56 | INFO     | downloader:_log | [git] Receiving objects:   6% (444542/6614849), 408.08 MiB | 8.92 MiB/s
-2026-05-22 22:01:57 | INFO     | downloader:_log | [git] Receiving objects:   6% (446791/6614849), 414.82 MiB | 8.42 MiB/s
-2026-05-22 22:01:58 | INFO     | downloader:_log | [git] Receiving objects:   6% (453099/6614849), 426.42 MiB | 8.39 MiB/s
-2026-05-22 22:01:59 | INFO     | downloader:_log | [git] Receiving objects:   6% (456253/6614849), 435.05 MiB | 8.23 MiB/s
-2026-05-22 22:02:00 | INFO     | downloader:_log | [git] Receiving objects:   6% (457418/6614849), 440.26 MiB | 7.26 MiB/s
-2026-05-22 22:02:01 | INFO     | downloader:_log | [git] Receiving objects:   6% (460633/6614849), 444.42 MiB | 7.18 MiB/s
-2026-05-22 22:02:01 | INFO     | downloader:_log | [git] Receiving objects:   6% (462342/6614849), 448.65 MiB | 6.99 MiB/s
-2026-05-22 22:02:02 | INFO     | downloader:_log | [git] Receiving objects:   7% (463040/6614849), 452.64 MiB | 7.28 MiB/s
-2026-05-22 22:02:03 | INFO     | downloader:_log | [git] Receiving objects:   7% (464925/6614849), 461.11 MiB | 6.68 MiB/s
-2026-05-22 22:02:04 | INFO     | downloader:_log | [git] Receiving objects:   7% (467992/6614849), 466.87 MiB | 6.59 MiB/s
-2026-05-22 22:02:05 | INFO     | downloader:_log | [git] Receiving objects:   7% (468190/6614849), 473.61 MiB | 6.66 MiB/s
-2026-05-22 22:02:06 | INFO     | downloader:_log | [git] Receiving objects:   7% (470273/6614849), 481.78 MiB | 7.14 MiB/s
-2026-05-22 22:02:07 | INFO     | downloader:_log | [git] Receiving objects:   7% (472440/6614849), 487.39 MiB | 6.81 MiB/s
-2026-05-22 22:02:08 | INFO     | downloader:_log | [git] Receiving objects:   7% (474472/6614849), 490.43 MiB | 6.35 MiB/s
-2026-05-22 22:02:09 | INFO     | downloader:_log | [git] Receiving objects:   7% (476801/6614849), 500.06 MiB | 6.65 MiB/s
-2026-05-22 22:02:10 | INFO     | downloader:_log | [git] Receiving objects:   7% (476860/6614849), 515.19 MiB | 7.58 MiB/s
-2026-05-22 22:02:11 | INFO     | downloader:_log | [git] Receiving objects:   7% (478715/6614849), 520.41 MiB | 8.14 MiB/s
-2026-05-22 22:02:12 | INFO     | downloader:_log | [git] Receiving objects:   7% (479523/6614849), 526.68 MiB | 8.28 MiB/s
-2026-05-22 22:02:13 | INFO     | downloader:_log | [git] Receiving objects:   7% (481562/6614849), 530.98 MiB | 7.48 MiB/s
-2026-05-22 22:02:14 | INFO     | downloader:_log | [git] Receiving objects:   7% (482780/6614849), 534.23 MiB | 6.13 MiB/s
-2026-05-22 22:02:15 | INFO     | downloader:_log | [git] Receiving objects:   7% (484294/6614849), 539.54 MiB | 4.96 MiB/s
-2026-05-22 22:02:16 | INFO     | downloader:_log | [git] Receiving objects:   7% (486504/6614849), 543.96 MiB | 4.82 MiB/s
-2026-05-22 22:02:17 | INFO     | downloader:_log | [git] Receiving objects:   7% (491641/6614849), 551.14 MiB | 4.99 MiB/s
-2026-05-22 22:02:18 | INFO     | downloader:_log | [git] Receiving objects:   7% (493026/6614849), 561.09 MiB | 6.14 MiB/s
-2026-05-22 22:02:19 | INFO     | downloader:_log | [git] Receiving objects:   7% (496696/6614849), 569.46 MiB | 7.13 MiB/s
-2026-05-22 22:02:20 | INFO     | downloader:_log | [git] Receiving objects:   7% (496782/6614849), 574.57 MiB | 7.39 MiB/s
-2026-05-22 22:02:21 | INFO     | downloader:_log | [git] Receiving objects:   7% (497084/6614849), 575.27 MiB | 5.76 MiB/s
-2026-05-22 22:02:22 | INFO     | downloader:_log | [git] Receiving objects:   7% (498296/6614849), 576.14 MiB | 4.02 MiB/s
-2026-05-22 22:02:23 | INFO     | downloader:_log | [git] Receiving objects:   7% (500459/6614849), 579.36 MiB | 3.03 MiB/s
-2026-05-22 22:02:24 | INFO     | downloader:_log | [git] Receiving objects:   7% (502062/6614849), 584.79 MiB | 2.33 MiB/s
-2026-05-22 22:02:25 | INFO     | downloader:_log | [git] Receiving objects:   7% (503170/6614849), 590.75 MiB | 3.55 MiB/s
-2026-05-22 22:02:26 | INFO     | downloader:_log | [git] Receiving objects:   7% (506222/6614849), 595.52 MiB | 4.30 MiB/s
-2026-05-22 22:02:27 | INFO     | downloader:_log | [git] Receiving objects:   7% (506509/6614849), 602.34 MiB | 5.28 MiB/s
-2026-05-22 22:02:28 | INFO     | downloader:_log | [git] Receiving objects:   7% (507721/6614849), 606.71 MiB | 5.45 MiB/s
-2026-05-22 22:02:29 | INFO     | downloader:_log | [git] Receiving objects:   7% (508511/6614849), 610.04 MiB | 4.80 MiB/s
-2026-05-22 22:02:30 | INFO     | downloader:_log | [git] Receiving objects:   7% (508926/6614849), 613.93 MiB | 4.42 MiB/s
-2026-05-22 22:02:31 | INFO     | downloader:_log | [git] Receiving objects:   7% (510111/6614849), 618.71 MiB | 4.02 MiB/s
-2026-05-22 22:02:32 | INFO     | downloader:_log | [git] Receiving objects:   7% (511525/6614849), 622.91 MiB | 3.90 MiB/s
-2026-05-22 22:02:33 | INFO     | downloader:_log | [git] Receiving objects:   7% (513182/6614849), 629.27 MiB | 4.45 MiB/s
-2026-05-22 22:02:34 | INFO     | downloader:_log | [git] Receiving objects:   7% (513570/6614849), 631.86 MiB | 4.44 MiB/s
-2026-05-22 22:02:35 | INFO     | downloader:_log | [git] Receiving objects:   7% (513619/6614849), 642.66 MiB | 5.74 MiB/s
-2026-05-22 22:02:36 | INFO     | downloader:_log | [git] Receiving objects:   7% (516085/6614849), 651.43 MiB | 6.64 MiB/s
-2026-05-22 22:02:37 | INFO     | downloader:_log | [git] Receiving objects:   7% (521491/6614849), 665.83 MiB | 8.60 MiB/s
-2026-05-22 22:02:37 | INFO     | downloader:_log | [git] Receiving objects:   8% (529188/6614849), 679.57 MiB | 10.08 MiB/s
-2026-05-22 22:02:38 | INFO     | downloader:_log | [git] Receiving objects:   8% (529482/6614849), 679.57 MiB | 10.08 MiB/s
-2026-05-22 22:02:39 | INFO     | downloader:_log | [git] Receiving objects:   8% (533536/6614849), 693.07 MiB | 12.50 MiB/s
-2026-05-22 22:02:40 | INFO     | downloader:_log | [git] Receiving objects:   8% (542571/6614849), 712.58 MiB | 14.42 MiB/s
-2026-05-22 22:02:41 | INFO     | downloader:_log | [git] Receiving objects:   8% (546404/6614849), 725.98 MiB | 14.03 MiB/s
-2026-05-22 22:02:42 | INFO     | downloader:_log | [git] Receiving objects:   8% (548897/6614849), 735.93 MiB | 13.39 MiB/s
-2026-05-22 22:02:43 | INFO     | downloader:_log | [git] Receiving objects:   8% (551767/6614849), 742.25 MiB | 13.30 MiB/s
-2026-05-22 22:02:44 | INFO     | downloader:_log | [git] Receiving objects:   8% (553745/6614849), 752.29 MiB | 12.60 MiB/s
-2026-05-22 22:02:45 | INFO     | downloader:_log | [git] Receiving objects:   8% (558235/6614849), 768.73 MiB | 10.10 MiB/s
-2026-05-22 22:02:46 | INFO     | downloader:_log | [git] Receiving objects:   8% (558846/6614849), 779.38 MiB | 11.18 MiB/s
-2026-05-22 22:02:47 | INFO     | downloader:_log | [git] Receiving objects:   8% (559820/6614849), 786.09 MiB | 9.39 MiB/s
-2026-05-22 22:02:48 | INFO     | downloader:_log | [git] Receiving objects:   8% (561404/6614849), 790.62 MiB | 9.28 MiB/s
-2026-05-22 22:02:49 | INFO     | downloader:_log | [git] Receiving objects:   8% (564720/6614849), 797.24 MiB | 8.48 MiB/s
-2026-05-22 22:02:50 | INFO     | downloader:_log | [git] Receiving objects:   8% (567447/6614849), 807.65 MiB | 8.13 MiB/s
-2026-05-22 22:02:51 | INFO     | downloader:_log | [git] Receiving objects:   8% (570666/6614849), 816.04 MiB | 7.66 MiB/s
-2026-05-22 22:02:52 | INFO     | downloader:_log | [git] Receiving objects:   8% (573161/6614849), 823.64 MiB | 8.02 MiB/s
-2026-05-22 22:02:53 | INFO     | downloader:_log | [git] Receiving objects:   8% (576702/6614849), 831.95 MiB | 8.44 MiB/s
-2026-05-22 22:02:54 | INFO     | downloader:_log | [git] Receiving objects:   8% (578740/6614849), 839.40 MiB | 7.78 MiB/s
-2026-05-22 22:02:55 | INFO     | downloader:_log | [git] Receiving objects:   8% (582367/6614849), 848.46 MiB | 7.69 MiB/s
-2026-05-22 22:02:56 | INFO     | downloader:_log | [git] Receiving objects:   8% (586477/6614849), 862.50 MiB | 8.77 MiB/s
-2026-05-22 22:02:57 | INFO     | downloader:_log | [git] Receiving objects:   8% (588230/6614849), 869.29 MiB | 9.45 MiB/s
-2026-05-22 22:02:58 | INFO     | downloader:_log | [git] Receiving objects:   8% (592104/6614849), 880.14 MiB | 9.90 MiB/s
-2026-05-22 22:02:59 | INFO     | downloader:_log | [git] Receiving objects:   8% (592480/6614849), 891.22 MiB | 11.14 MiB/s
-2026-05-22 22:03:00 | INFO     | downloader:_log | [git] Receiving objects:   8% (592612/6614849), 897.59 MiB | 10.27 MiB/s
-2026-05-22 22:03:01 | INFO     | downloader:_log | [git] Receiving objects:   8% (593575/6614849), 905.04 MiB | 9.09 MiB/s
-2026-05-22 22:03:02 | INFO     | downloader:_log | [git] Receiving objects:   8% (593942/6614849), 910.82 MiB | 7.68 MiB/s
-2026-05-22 22:03:04 | INFO     | downloader:_log | [git] Receiving objects:   8% (594311/6614849), 918.52 MiB | 6.77 MiB/s
-2026-05-22 22:03:04 | INFO     | downloader:_log | [git] Receiving objects:   8% (594519/6614849), 927.76 MiB | 7.26 MiB/s
-2026-05-22 22:03:04 | INFO     | downloader:_log | [git] Receiving objects:   9% (595337/6614849), 929.08 MiB | 6.53 MiB/s
-2026-05-22 22:03:05 | INFO     | downloader:_log | [git] Receiving objects:   9% (595619/6614849), 929.08 MiB | 6.53 MiB/s
-2026-05-22 22:03:06 | INFO     | downloader:_log | [git] Receiving objects:   9% (596393/6614849), 937.81 MiB | 5.98 MiB/s
-2026-05-22 22:03:06 | INFO     | downloader:_log | [git] fatal: fetch-pack: invalid index-pack output
-2026-05-22 22:03:06 | INFO     | downloader:_log | [git] fetch-pack: unexpected disconnect while reading sideband packet
-2026-05-22 22:03:06 | INFO     | downloader:_log | 克隆失败: 未知错误
-2026-05-22 22:03:06 | ERROR    | downloader:clone_project | 项目克隆失败: odoo, 错误: 未知错误
-2026-05-22 22:03:06 | ERROR    | scheduler:_auto_download_trending | 下载失败: odoo, 克隆失败: 未知错误
-2026-05-22 22:03:06 | INFO     | scheduler:_auto_download_trending | 项目已存在于数据库，执行更新: cfnew
-2026-05-22 22:03:06 | INFO     | downloader:update_project | 开始更新项目: ..\github_projects\cfnew
-2026-05-22 22:03:06 | INFO     | downloader:_log | 正在更新项目: ..\github_projects\cfnew
-2026-05-22 22:03:06 | INFO     | main:signal_handler | 收到信号 2，立即退出
-2026-05-22 22:03:07 | WARNING  | downloader:update_project | 项目更新失败: ..\github_projects\cfnew, 更新失败
-2026-05-22 22:03:07 | INFO     | scheduler:_auto_download_trending | 已标记为已下载: cfnew
-2026-05-22 22:03:08 | INFO     | main:lifespan | Hot Github API 启动中...
-2026-05-22 22:03:08 | INFO     | main:lifespan | 配置已加载: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\config.json
-2026-05-22 22:03:08 | INFO     | main:lifespan | 信号处理器已注册: SIGINT, SIGTERM
-2026-05-22 22:03:08 | INFO     | main:lifespan | 数据库已初始化: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\projects.db
-2026-05-22 22:03:08 | INFO     | scheduler:_setup_jobs | 定时任务已配置完成
-2026-05-22 22:03:08 | INFO     | scheduler:start | 调度器已启动，当前任务列表: ['retry_analysis', 'auto_analysis', 'daily_trending', 'weekly_trending', 'monthly_trending']
-2026-05-22 22:03:08 | INFO     | main:lifespan | 历史热点调度器已启动
-2026-05-22 22:03:08 | INFO     | main:lifespan | Hot Github API 启动完成，等待请求...
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=4, doc_name=academic-research-skills-设计说明书.html
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=4, name=academic-research-skills, full_name=Imbad0202/academic-research-skills
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\academic-research-skills-设计说明书.html (exists=True)
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\academic-research-skills-设计说明书.html
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\academic-research-skills-设计说明书.html, suffix=.html, size=93214 bytes
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 73852 字符
-2026-05-22 22:03:36 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=4, doc_name=academic-research-skills-使用说明书.html
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=4, name=academic-research-skills, full_name=Imbad0202/academic-research-skills
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\academic-research-skills-使用说明书.html (exists=True)
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\academic-research-skills-使用说明书.html
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\academic-research-skills-使用说明书.html, suffix=.html, size=64155 bytes
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 55862 字符
-2026-05-22 22:03:42 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=4, doc_name=academic-research-skills-价值点分析.html
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=4, name=academic-research-skills, full_name=Imbad0202/academic-research-skills
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\academic-research-skills-价值点分析.html (exists=False)
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 4: 精确匹配失败，尝试模糊匹配
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 模糊匹配参数: base_name=academic-research-skills-价值点分析, extension=html
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] glob模式: academic-research-skills-价值点分析*.html
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 匹配到的文件数量: 1
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 匹配文件[0]: academic-research-skills-价值点分析-20260519.html (mtime=1779124709.028851)
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 选择最新文件: academic-research-skills-价值点分析-20260519.html
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\academic-research-skills-价值点分析-20260519.html, suffix=.html, size=41723 bytes
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 34889 字符
-2026-05-22 22:03:45 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=5, doc_name=CLI-Anything-设计说明书.html
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=5, name=CLI-Anything, full_name=HKUDS/CLI-Anything
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\CLI-Anything-设计说明书.html (exists=False)
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 4: 精确匹配失败，尝试模糊匹配
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 模糊匹配参数: base_name=CLI-Anything-设计说明书, extension=html
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] glob模式: CLI-Anything-设计说明书*.html
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 匹配到的文件数量: 1
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 匹配文件[0]: CLI-Anything-设计说明书-20260519.html (mtime=1779125350.7903838)
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 选择最新文件: CLI-Anything-设计说明书-20260519.html
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\CLI-Anything-设计说明书-20260519.html, suffix=.html, size=40557 bytes
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 33793 字符
-2026-05-22 22:03:47 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:04:05 | INFO     | trending:get_official_trending | 获取官方热点: since=daily, language=, limit=10
-2026-05-22 22:04:05 | INFO     | trending_scraper:get_trending | 获取官方热点: since=daily, language=
-2026-05-22 22:04:07 | INFO     | trending_scraper:_parse_trending_page | 找到 14 个项目
-2026-05-22 22:04:08 | INFO     | trending:get_official_trending | 官方热点返回: 10 个项目
-2026-05-22 22:07:10 | INFO     | trending:get_starred_projects | 获取高星项目: category=ALL, pushed=不限制, created=不限制, limit=10
-2026-05-22 22:07:10 | INFO     | github_api:get_trending | 查询: stars:>50
-2026-05-22 22:07:16 | INFO     | trending:get_starred_projects | 高星项目返回: 10 个项目
-2026-05-22 22:07:16 | INFO     | trending:get_categories | 获取分类列表: ['ALL', 'AI', '实用工具', '游戏&创意', '学习资源']
-2026-05-22 22:10:46 | INFO     | trending:get_official_trending | 获取官方热点: since=daily, language=, limit=10
-2026-05-22 22:10:46 | INFO     | trending_scraper:get_trending | 获取官方热点: since=daily, language=
-2026-05-22 22:10:49 | INFO     | trending_scraper:_parse_trending_page | 找到 14 个项目
-2026-05-22 22:10:49 | INFO     | trending:get_official_trending | 官方热点返回: 10 个项目
-2026-05-22 22:10:56 | INFO     | search:search_repositories | 搜索请求: query=every, limit=10
-2026-05-22 22:10:58 | INFO     | search:search_repositories | 搜索完成: 返回 10 个结果
-2026-05-22 22:11:09 | INFO     | trending:get_official_trending | 获取官方热点: since=daily, language=, limit=10
-2026-05-22 22:11:09 | INFO     | trending_scraper:get_trending | 获取官方热点: since=daily, language=
-2026-05-22 22:11:12 | INFO     | trending_scraper:_parse_trending_page | 找到 14 个项目
-2026-05-22 22:11:12 | INFO     | trending:get_official_trending | 官方热点返回: 10 个项目
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=5, doc_name=CLI-Anything-设计说明书-20260519.html
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=5, name=CLI-Anything, full_name=HKUDS/CLI-Anything
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\CLI-Anything-设计说明书-20260519.html (exists=True)
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\CLI-Anything-设计说明书-20260519.html
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\CLI-Anything-设计说明书-20260519.html, suffix=.html, size=40557 bytes
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 33793 字符
-2026-05-22 22:25:03 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=6, doc_name=scientific-agent-skills-设计说明书-20260519.html
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=6, name=scientific-agent-skills, full_name=K-Dense-AI/scientific-agent-skills
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\scientific-agent-skills-设计说明书-20260519.html (exists=True)
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\scientific-agent-skills-设计说明书-20260519.html
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\scientific-agent-skills-设计说明书-20260519.html, suffix=.html, size=73526 bytes
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 58843 字符
-2026-05-22 22:25:06 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=6, doc_name=scientific-agent-skills-使用说明书-20260519.html
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=6, name=scientific-agent-skills, full_name=K-Dense-AI/scientific-agent-skills
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\scientific-agent-skills-使用说明书-20260519.html (exists=True)
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\scientific-agent-skills-使用说明书-20260519.html
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\scientific-agent-skills-使用说明书-20260519.html, suffix=.html, size=53315 bytes
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 46320 字符
-2026-05-22 22:25:10 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 开始处理文档文件请求 ==========
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 请求参数: project_id=6, doc_name=scientific-agent-skills-价值点分析-20260519.html
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 1: 验证项目存在
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 项目验证成功: id=6, name=scientific-agent-skills, full_name=K-Dense-AI/scientific-agent-skills
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 2: 确定文档目录
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 文档目录: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\..\github_projects\01-docs (exists=True)
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 3: 尝试精确匹配文件
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配路径: ..\github_projects\01-docs\scientific-agent-skills-价值点分析-20260519.html (exists=True)
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 精确匹配成功: ..\github_projects\01-docs\scientific-agent-skills-价值点分析-20260519.html
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] Step 5: 准备返回文件
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件信息: path=..\github_projects\01-docs\scientific-agent-skills-价值点分析-20260519.html, suffix=.html, size=40306 bytes
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] media_type: text/html
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] HTML文件，内嵌展示模式
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] 文件读取成功，内容长度: 33791 字符
-2026-05-22 22:25:12 | INFO     | docs_gen:download_doc | [DOC_FILE] ========== 返回HTML响应成功 ==========
-2026-05-22 22:39:56 | INFO     | trending:get_categories | 获取分类列表: ['ALL', 'AI', '实用工具', '游戏&创意', '学习资源']
-2026-05-22 22:39:56 | INFO     | trending:get_starred_projects | 获取高星项目: category=ALL, pushed=不限制, created=不限制, limit=10
-2026-05-22 22:39:56 | INFO     | github_api:get_trending | 查询: stars:>50
-2026-05-22 22:40:01 | INFO     | trending:get_starred_projects | 高星项目返回: 10 个项目
-2026-05-22 23:24:26 | INFO     | main:signal_handler | 收到信号 2，立即退出
-2026-05-22 23:24:27 | INFO     | main:lifespan | Hot Github API 启动中...
-2026-05-22 23:24:27 | INFO     | main:lifespan | 配置已加载: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\config.json
-2026-05-22 23:24:27 | INFO     | main:lifespan | 信号处理器已注册: SIGINT, SIGTERM
-2026-05-22 23:24:27 | INFO     | main:lifespan | 数据库已初始化: D:\01-work\06-claudecode\02-agent\02-clone_github_proj\github_manager_web\backend\projects.db
-2026-05-22 23:24:27 | INFO     | scheduler:_setup_jobs | 定时任务已配置完成
-2026-05-22 23:24:27 | INFO     | scheduler:start | 调度器已启动，当前任务列表: ['retry_analysis', 'auto_analysis', 'daily_trending', 'weekly_trending', 'monthly_trending']
-2026-05-22 23:24:27 | INFO     | main:lifespan | 历史热点调度器已启动
-2026-05-22 23:24:27 | INFO     | main:lifespan | Hot Github API 启动完成，等待请求...
+2026-05-23 00:11:53 | INFO     | main:lifespan | Hot Github API 启动中...
+2026-05-23 00:11:53 | INFO     | main:lifespan | 配置已加载: D:\01-work\06-claudecode\github_manager_web\backend\config.json
+2026-05-23 00:11:53 | INFO     | main:lifespan | 信号处理器已注册: SIGINT, SIGTERM
+2026-05-23 00:11:53 | INFO     | main:lifespan | 数据库已初始化: D:\01-work\06-claudecode\github_manager_web\backend\projects.db
+2026-05-23 00:11:53 | INFO     | scheduler:_setup_jobs | 定时任务已配置完成
+2026-05-23 00:11:53 | INFO     | scheduler:start | 调度器已启动，当前任务列表: ['auto_analysis', 'retry_analysis', 'daily_trending', 'weekly_trending', 'monthly_trending']
+2026-05-23 00:11:53 | INFO     | main:lifespan | 历史热点调度器已启动
+2026-05-23 00:11:53 | INFO     | main:lifespan | Hot Github API 启动完成，等待请求...
+2026-05-23 00:30:00 | INFO     | scheduler:process_auto_download_and_analysis | 开始执行: auto_analysis
+2026-05-23 00:30:00 | INFO     | scheduler:process_auto_download_and_analysis | 今日无热点数据，跳过分析
+2026-05-23 11:01:06 | INFO     | trending:get_categories | 获取分类列表: ['ALL', 'AI', '实用工具', '游戏&创意', '学习资源']
+2026-05-23 11:01:06 | INFO     | trending:get_starred_projects | 获取高星项目: category=ALL, pushed=不限制, created=不限制, limit=10
+2026-05-23 11:01:06 | INFO     | github_api:get_trending | 查询: stars:>50
+2026-05-23 11:01:10 | INFO     | trending:get_starred_projects | 高星项目返回: 10 个项目
+2026-05-23 11:04:09 | INFO     | main:signal_handler | 收到信号 2，立即退出
+2026-05-23 11:04:09 | INFO     | main:lifespan | Hot Github API 启动中...
+2026-05-23 11:04:09 | INFO     | main:lifespan | 配置已加载: D:\01-work\06-claudecode\github_manager_web\backend\config.json
+2026-05-23 11:04:09 | INFO     | main:lifespan | 信号处理器已注册: SIGINT, SIGTERM
+2026-05-23 11:04:09 | INFO     | main:lifespan | 数据库已初始化: D:\01-work\06-claudecode\github_manager_web\backend\projects.db
+2026-05-23 11:04:09 | INFO     | scheduler:_setup_jobs | 定时任务已配置完成
+2026-05-23 11:04:09 | INFO     | scheduler:start | 调度器已启动，当前任务列表: ['retry_analysis', 'daily_trending', 'auto_analysis', 'weekly_trending', 'monthly_trending']
+2026-05-23 11:04:09 | INFO     | main:lifespan | 历史热点调度器已启动
+2026-05-23 11:04:09 | INFO     | main:lifespan | Hot Github API 启动完成，等待请求...
+2026-05-23 11:04:25 | INFO     | main:signal_handler | 收到信号 2，立即退出
+2026-05-23 11:04:26 | INFO     | main:lifespan | Hot Github API 启动中...
+2026-05-23 11:04:26 | INFO     | main:lifespan | 配置已加载: D:\01-work\06-claudecode\github_manager_web\backend\config.json
+2026-05-23 11:04:26 | INFO     | main:lifespan | 信号处理器已注册: SIGINT, SIGTERM
+2026-05-23 11:04:26 | INFO     | main:lifespan | 数据库已初始化: D:\01-work\06-claudecode\github_manager_web\backend\projects.db
+2026-05-23 11:04:26 | INFO     | scheduler:_setup_jobs | 定时任务已配置完成
+2026-05-23 11:04:26 | INFO     | scheduler:start | 调度器已启动，当前任务列表: ['retry_analysis', 'daily_trending', 'auto_analysis', 'weekly_trending', 'monthly_trending']
+2026-05-23 11:04:26 | INFO     | main:lifespan | 历史热点调度器已启动
+2026-05-23 11:04:26 | INFO     | main:lifespan | Hot Github API 启动完成，等待请求...
